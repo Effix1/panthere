@@ -743,6 +743,11 @@ h4 {
     margin-bottom: 24px;
 }
 
+.picture-portfolio {
+    width: 320px;
+    height: 320px;
+}
+
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
