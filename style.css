@@ -532,7 +532,7 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    
     text-align: center;
 }
 
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -738,9 +738,15 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+.link-portfolio {
+    display: flex;
+    justify-content: center;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .picture-portfolio {
@@ -829,6 +835,22 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+.comment {
+    color: #575757;
+    padding:0px 25px;
+
+}
+
+.div-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.logo-rs {
+    display: flex;
+    justify-content: space-between;
+}
 
 @media (max-width: 1024px) {
     .bloc {
@@ -907,8 +929,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
