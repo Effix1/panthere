@@ -119,7 +119,7 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
+/*.d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
@@ -134,7 +134,7 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
-}
+}*/
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -317,7 +317,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    
     float: right;
     
 }
@@ -432,11 +432,18 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    color: black;
 }
 
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    color: #0b0529;
+    font-size: 1.2em;
+}
+
+.text-foot {
+    color: #0b0529;
 }
 
 .btn {
@@ -730,8 +737,13 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #8a3e00;
 }
+
+.brush {
+    color: #0b0529;
+}
+
 .link-portfolio {
     display: flex;
     justify-content: center;
@@ -780,12 +792,19 @@ h4 {
 }
 
 .tc-white {
-    color: #2a0e01;
+    color: #f9ded2;
+}
+
+.tc-bloc6 {
+    color: #0b0529;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    letter-spacing: 8px;
+    font-size: 1.25em;
+    background-color: #8a3e00;
 }
 
 .btn-atomic-tangerine:hover {
@@ -794,7 +813,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #0b0529;
 }
 
 .ltc-white:hover {
@@ -832,7 +851,14 @@ h4 {
 .comment {
     color: #575757;
     padding:0px 25px;
+    font-size: 1.2em;
+    
+}
 
+.maxime {
+    
+    font-size: 1.25em;
+    
 }
 
 .div-portfolio {
